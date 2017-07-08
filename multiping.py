@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Ping multiple destinations and print out the statistics
+# Ping multiple destinations and print out statistics
 
 import argparse
 import threading
@@ -20,7 +20,7 @@ except ImportError:
     print("Closing program...\n")
     sys.exit()
 
-	
+
 def time_conversion(matched_object):
     
     """ Convert unix time to readable time """
@@ -70,7 +70,7 @@ def analyze_ping(host_list):
             ping_log.write(log_content)
 
         # Get the ping output
-        ping_output = re.findall(r"(\d+/\d+/\d+ \d+:\d+:\d+) (.+) (icmp_seq=\d+) (.+)", log_content)
+        ping_output = re.findall(r"(\d+:\d+:\d+ \d+/\d+/\d+) (.+) (icmp_seq=\d+) (.+)", log_content)
 
         # Create an ICMP sequence list and a corresponding datetime list
         if len(ping_output) == 0:
