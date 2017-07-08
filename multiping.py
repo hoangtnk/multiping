@@ -13,14 +13,14 @@ import os.path
 from datetime import datetime
 
 try:
-	from colorama import init, deinit, Fore, Style
+    from colorama import init, deinit, Fore, Style
 except ImportError:
-	print("\nColorama package is not installed on this system!")
-	print("Get it from https://pypi.python.org/pypi/colorama")
-	print("Closing program...\n")
-	sys.exit()
+    print("\nColorama package is not installed on this system!")
+    print("Get it from https://pypi.python.org/pypi/colorama")
+    print("Closing program...\n")
+    sys.exit()
 
-
+	
 def time_conversion(matched_object):
     
     """ Convert unix time to readable time """
