@@ -26,7 +26,7 @@ def time_conversion(matched_object):
     """ Convert unix time to readable time """
     
     timestamp = matched_object.group(1)
-    return datetime.fromtimestamp(float(timestamp)).strftime("%d/%m/%Y %H:%M:%S")
+    return datetime.fromtimestamp(float(timestamp)).strftime("%H:%M:%S %d/%m/%Y")
 
 
 def ping(dest):
