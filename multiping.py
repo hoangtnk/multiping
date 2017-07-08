@@ -14,7 +14,6 @@ from datetime import datetime
 
 try:
 	from colorama import init, deinit, Fore, Style
-	
 except ImportError:
 	print("\nColorama package is not installed on this system!")
 	print("Get it from https://pypi.python.org/pypi/colorama")
