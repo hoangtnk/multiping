@@ -45,28 +45,31 @@ Analyzing ping results. Please wait...
 ========================== BEGIN OF STATISTICS ==========================
 
 + CISCO.COM:
+(4 packets lost) at 22:17:47 08/07/2017
 Total packets sent: 17
-Total packets received: 17
-Total packets lost: 0 (0%)
-Minimum latency: 245.071 ms
-Maximum latency: 905.690 ms
-Average latency: 377.002 ms
+Total packets received: 13
+Total packets lost: 4 (23%)
+Minimum latency: 243.023 ms
+Maximum latency: 378.873 ms
+Average latency: 293.359 ms
 
 + GOOGLE.COM:
+(4 packets lost) at 22:17:47 08/07/2017
 Total packets sent: 17
-Total packets received: 17
-Total packets lost: 0 (0%)
-Minimum latency: 57.807 ms
-Maximum latency: 1063.761 ms
-Average latency: 189.010 ms
+Total packets received: 13
+Total packets lost: 4 (23%)
+Minimum latency: 56.288 ms
+Maximum latency: 65.612 ms
+Average latency: 58.119 ms
 
 + ZING.VN:
+(4 packets lost) at 22:17:46 08/07/2017
 Total packets sent: 17
-Total packets received: 17
-Total packets lost: 0 (0%)
-Minimum latency: 5.226 ms
-Maximum latency: 2285.608 ms
-Average latency: 388.035 ms
+Total packets received: 13
+Total packets lost: 4 (23%)
+Minimum latency: 3.538 ms
+Maximum latency: 15.257 ms
+Average latency: 6.614 ms
 
 =========================== END OF STATISTICS ===========================
 ```
