@@ -70,3 +70,4 @@ Average latency: 388.035 ms
 
 =========================== END OF STATISTICS ===========================
 ```
+_**Note:** Modify the log directory in the script to suit your system_
