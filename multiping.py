@@ -181,7 +181,7 @@ def main():
         time.sleep(2)  # Wait for ping statistics to be written to log file
         analyze_ping(args.host)
 
-    print("")
+    print()
     deinit()
 
 
